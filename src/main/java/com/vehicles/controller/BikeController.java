@@ -19,7 +19,7 @@ import com.vehicles.service.BikeService;
 
 public class BikeController {
 	@Autowired
-	BikeService er;
+	BikeService er;//add
 
 	@PostMapping(value = "/setdata")
 	public String setData(@RequestBody Bike b) {
